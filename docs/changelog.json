@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-06T00:00:00Z",
+  "releases": [
+    {
+      "version": "0.19.0-beta.5",
+      "date": "2026-05-05",
+      "channel": "beta",
+      "title": "The first public Darius beta.",
+      "summary": "This release turns the private Darius fork into a downloadable beta: signed app builds, Darius-owned update infrastructure, mandatory sign-in, refreshed branding, and the first pass at the new workspace UI.",
+      "releaseUrl": "https://github.com/AmElmo/darius-updates/releases/tag/0.19.0-beta.5",
+      "image": {
+        "url": "changelog/0.19.0-beta.5/darius-hero-screen.png",
+        "alt": "Darius workspace preview",
+        "label": "Release screenshot"
+      },
+      "sections": [
+        {
+          "title": "Highlights",
+          "items": [
+            "Shipped the first public beta release through the Darius update repository.",
+            "Added mandatory Supabase sign-in for release builds.",
+            "Adopted the Darius three-triangles brand mark across the app and website.",
+            "Added the menu bar quick ask panel for fast access from macOS."
+          ]
+        },
+        {
+          "title": "Improvements",
+          "items": [
+            "Refined the task sidebar, chat canvas, settings surfaces, and onboarding copy.",
+            "Bundled the plugin catalog and binaries inside the app for a simpler beta setup.",
+            "Added screenshot seed data and a UI catalog to make future visual review easier."
+          ]
+        },
+        {
+          "title": "Fixes",
+          "items": [
+            "Fixed release signing issues around Developer ID Apple OAuth.",
+            "Fixed Metal toolchain setup in the release workflow.",
+            "Excluded Icon Composer source from the release app target."
+          ]
+        },
+        {
+          "title": "Infrastructure",
+          "items": [
+            "Moved release assets, appcast, sandbox URLs, and update hosting to Darius-owned infrastructure.",
+            "Added upstream intake guardrails so Osaurus-owned hosts do not re-enter Darius releases."
+          ]
+        }
+      ]
+    }
+  ]
+}
