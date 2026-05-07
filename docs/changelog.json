@@ -43,8 +43,7 @@
         {
           "title": "Infrastructure",
           "items": [
-            "Moved release assets, appcast, sandbox URLs, and update hosting to Darius-owned infrastructure.",
-            "Added upstream intake guardrails so Osaurus-owned hosts do not re-enter Darius releases."
+            "Moved release assets, appcast, sandbox URLs, and update hosting to Darius-owned infrastructure."
           ]
         }
       ]
