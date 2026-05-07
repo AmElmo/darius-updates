@@ -8,6 +8,11 @@
       "channel": "beta",
       "title": "Polish across the model picker, composer, and settings",
       "summary": "This beta adds an Account panel, redesigns the model picker, and refreshes the composer — plus a light-mode pass and a couple of fixes to chat streaming and factory reset.",
+      "image": {
+        "url": "changelog/0.19.0-beta.6/release-screenshot.png",
+        "alt": "Darius workspace reviewing a chat sidebar change",
+        "label": "Release screenshot"
+      },
       "sections": [
         {
           "title": "Highlights",
