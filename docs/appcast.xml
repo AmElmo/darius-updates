@@ -3,6 +3,91 @@
   <channel>
     <title>Darius</title>
         <item>
+            <title>0.19.0-beta.6</title>
+            <pubDate>Thu, 07 May 2026 07:43:15 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>0.19.0-beta.6</sparkle:version>
+            <sparkle:shortVersionString>0.19.0-beta.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/AmElmo/darius-updates/releases/download/0.19.0-beta.6/Darius-0.19.0-beta.6.dmg" length="38874408" type="application/octet-stream" sparkle:edSignature="kSPO4VOCFyC1TL5WNbMXntk0zd1aVzVeTyH/5HPeZDrFPPo5A8oqCugo2lXA33UhMc3KTVuObQSg2lrbLPaeDA=="/>
+            <description sparkle:format="markdown"><![CDATA[
+## What's Changed
+
+- Replace visible Osaurus plugin UI references (#72) by @AmElmo
+- Redesign model picker as a compact, logo-aware list (#71) by @AmElmo
+- Fix task drafts and background chat streams (#70) by @AmElmo
+- Add shared AI logo library (#69) by @AmElmo
+- Add sunset app-icon proposal variants (sapphire-family + two-tone) (#67) by @AmElmo
+- Sidebar default + thinking cache invalidation (#65) by @AmElmo
+- Rotate Apple OAuth secret automatically (#60) by @AmElmo
+- Publish website changelog feed on release (#61) by @AmElmo
+- Add local debug app variant (#62) by @AmElmo
+- DAR-48 Account panel in Settings (#63) by @AmElmo
+- Refresh composer bottom bar to match HTML mockup (#64) by @AmElmo
+- Redesign DMG installer background (#58) by @AmElmo
+- Gate quick panel behind sign-in (#59) by @AmElmo
+- Skip Icon Composer source in release build (#57) by @AmElmo
+- Use web Apple OAuth for Developer ID releases (#56) by @AmElmo
+- Use Swift 6.2-capable Xcode for releases (#54) by @AmElmo
+- Fix release workflow Metal toolchain setup (#53) by @AmElmo
+- Update new task sidebar and chat canvas (#52) by @AmElmo
+- Add screenshot seed data workflow (#51) by @AmElmo
+- Update onboarding welcome copy (#50) by @AmElmo
+- Adopt three-triangles Darius brand mark (#49) by @AmElmo
+- DAR-13: Apple Liquid Glass main-shell UI skin (#48) by @AmElmo
+- Polish settings UI look and feel (#46) by @AmElmo
+- Add three-triangles and sunset logo proposals (#47) by @AmElmo
+- Add menu bar quick ask panel (#45) by @AmElmo
+- DAR-16: Add mandatory Supabase sign-in (#44) by @AmElmo
+- Archive Penrose logo proposals for future reference (#43) by @AmElmo
+- DAR-12: clean up settings UI (#41) by @AmElmo
+- Update voice model selection docs (#42) by @AmElmo
+- Add Apple Liquid Glass v3 + v4 UI variations (composer gradient, floating panels) (#40) by @AmElmo
+- Add four shortlisted UI variations of studio-r6 (Linear, Apple, Things, Craft) (#39) by @AmElmo
+- Harden folder and artifact trust boundaries (DAR-39) (#37) by @AmElmo
+- Document Osaurus upstream intake workflow (#38) by @AmElmo
+- Rewrite README around new positioning and internal team (#36) by @AmElmo
+- Wire CI/CD release pipeline to Darius infrastructure (DAR-7) (#34) by @AmElmo
+- Restore Darius-owned sandbox infra URLs + upstream-intake guardrail (#35) by @AmElmo
+- Unify chat and folder-backed work execution (#33) by @AmElmo
+- Document unified-Task model + add main UI mockup (round 6) (#32) by @AmElmo
+- Open menu recents in current chat (#30) by @AmElmo
+- Document voice model selection (DAR-42) and Linear wave conventions (#31) by @AmElmo
+- Add Light / Dark / System appearance toggle to Settings (#28) by @AmElmo
+- Backport upstream reliability fixes (#29) by @AmElmo
+- Update Darius menu mark rounding (#27) by @AmElmo
+- Add UI catalog and fix catalog cell reuse (#26) by @AmElmo
+- Use development signing for local app builds (#25) by @AmElmo
+- Soften prism with rounded outer edges (V2 r=10) (#24) by @AmElmo
+- Redesign menu bar widget (DAR-11) (#23) by @AmElmo
+- Replace homepage cloud-globe orb with shimmering Darius prism (#22) by @AmElmo
+- Wire Darius brand assets into the app (DAR-33) (#21) by @AmElmo
+- Bundle plugin catalog and binaries inside the app (DAR-31) (#20) by @AmElmo
+- Document Conductor cache cleanup (#19) by @AmElmo
+- Remove clipboard "Paste Content From [App]" chip (#18) by @AmElmo
+- Document onboarding \& default AI provider strategy (DAR-10) (#17) by @AmElmo
+- Mirror sandbox init.ext4 to AmElmo infrastructure (DAR-30) (#16) by @AmElmo
+- Fix pending tool call cell constraint conflict (#15) by @AmElmo
+- Add Darius brand identity (DAR-5) (#14) by @AmElmo
+- Fix agent harness tool usage reliability (DAR-8) (#13) by @AmElmo
+- Update About panel tagline and drop Dinoki Labs byline (#12) by @AmElmo
+- Curate local model list and drop OsaurusAI dependency (DAR-29) (#10) by @AmElmo
+- Document no-telemetry stance and scrub Osaurus references (DAR-6) (#11) by @AmElmo
+- Handle port collisions in the local server (#8) by @AmElmo
+- Comply with legal obligations and finish Darius rebrand (#9) by @AmElmo
+- Revise upstream sync strategy for Darius fork (#7) by @AmElmo
+- Finish Darius app branding and release naming (#6) by @AmElmo
+- Route PR macOS tests to self-hosted runner (DAR-27) (#5) by @AmElmo
+- Rebrand all user-facing Osaurus references to Darius (DAR-26) (#4) by @AmElmo
+- Remove outdated cursor rule and fix FluidAudio API breakage (#3) by @AmElmo
+- Add shared AGENTS.md and CLAUDE.md for AI coding agents (#2) by @AmElmo
+- Fork Osaurus with upstream tracking (DAR-1) (#1) by @AmElmo
+
+**Full Changelog**: https://github.com/AmElmo/darius/compare/...0.1.0
+]]></description>
+        </item>
+        <item>
             <title>0.19.0-beta.5</title>
             <pubDate>Tue, 05 May 2026 06:51:08 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
