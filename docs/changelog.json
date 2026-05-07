@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-06T00:00:00Z",
+  "generatedAt": "2026-05-07T07:43:23Z",
   "releases": [
+    {
+      "version": "0.19.0-beta.6",
+      "date": "2026-05-07",
+      "channel": "beta",
+      "title": "Polish across the model picker, composer, and settings",
+      "summary": "This beta adds an Account panel, redesigns the model picker, and refreshes the composer — plus a light-mode pass and a couple of fixes to chat streaming and factory reset.",
+      "sections": [
+        {
+          "title": "Highlights",
+          "items": [
+            "Account panel in Settings.",
+            "Redesigned model picker as a compact, logo-aware list.",
+            "Refreshed composer bottom bar.",
+            "Menu bar quick ask now requires sign-in."
+          ]
+        },
+        {
+          "title": "Polish",
+          "items": [
+            "Light-mode pass on the model picker popover, composer edge, and search placeholder.",
+            "Sidebar default and thinking cache invalidation.",
+            "New DMG installer background."
+          ]
+        },
+        {
+          "title": "Fixes",
+          "items": [
+            "Factory reset shutdown order.",
+            "Task drafts and background chat streams."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.19.0-beta.5",
       "date": "2026-05-05",
