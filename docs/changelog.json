@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-07T07:43:23Z",
+  "generatedAt": "2026-05-11T16:29:57Z",
   "releases": [
+    {
+      "version": "0.19.0-beta.7",
+      "date": "2026-05-11",
+      "channel": "beta",
+      "title": "Redesigned onboarding and chat polish",
+      "summary": "This beta introduces a redesigned five-step onboarding flow with a warmer palette, refreshes the chat surface with better dark-mode contrast and clearer copy feedback, and tightens the model picker and menu bar quick panel.",
+      "sections": [
+        {
+          "title": "Onboarding",
+          "items": [
+            "Redesigned onboarding into five promise and setup screens with a warm palette and a borderless window.",
+            "Restored the animated welcome screen before the onboarding flow."
+          ]
+        },
+        {
+          "title": "Chat",
+          "items": [
+            "Copy buttons now sit below the message with a checkmark confirmation when copied.",
+            "Loosened sidebar row spacing and increased dark-mode contrast across chat and the sidebar."
+          ]
+        },
+        {
+          "title": "Model picker and menu bar",
+          "items": [
+            "Hid Apple Foundation from user-facing model surfaces.",
+            "Menu bar quick panel now stays open when you switch models."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.19.0-beta.6",
       "date": "2026-05-07",
