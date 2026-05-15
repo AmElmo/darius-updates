@@ -56,7 +56,12 @@
             "Tooltips across the app now appear almost instantly."
           ]
         }
-      ]
+      ],
+      "image": {
+        "url": "changelog/0.20.0-beta.1/projects.png",
+        "alt": "Darius Projects view showing a Website Refresh workspace with nested tasks",
+        "label": "Projects"
+      }
     },
     {
       "version": "0.19.0-beta.7",
