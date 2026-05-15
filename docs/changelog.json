@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-11T16:29:57Z",
+  "generatedAt": "2026-05-15T13:44:50Z",
   "releases": [
+    {
+      "version": "0.20.0-beta.1",
+      "date": "2026-05-15",
+      "channel": "beta",
+      "title": "Projects, ChatGPT subscriptions, and a calmer chat",
+      "summary": "This beta adds Projects so you can group chats and tasks into folder-backed workspaces, lets you bring your ChatGPT subscription into Darius, and queues local-model sends when your Mac is short on resources. Chat also gets steadier theming, persistent folder attachments, and a cleaner sidebar.",
+      "sections": [
+        {
+          "title": "Projects",
+          "items": [
+            "Organize chats and tasks into project workspaces with a folder, color, and archive — all from a new Projects section in the sidebar.",
+            "Each project carries its own folder context, so tasks inside it inherit the right working directory automatically.",
+            "Open a project to see its tasks, start a new one from the embedded composer, or manage active and archived projects in a dedicated view.",
+            "Pick from a curated palette of colors or choose any custom color via the native macOS color picker."
+          ]
+        },
+        {
+          "title": "Bring your ChatGPT subscription",
+          "items": [
+            "Sign in with ChatGPT to use Darius against your existing subscription — usage counts toward your ChatGPT plan limits, no separate API key needed.",
+            "Sign-in and account setup are now built into Darius."
+          ]
+        },
+        {
+          "title": "Chat",
+          "items": [
+            "Folder attachments now stick around across app restarts and project changes.",
+            "Switching themes mid-conversation refreshes the whole chat so colors and code blocks stay readable.",
+            "Model reasoning is shown in the thinking panel instead of leaking into the message itself.",
+            "New messages scroll into view automatically and the typing indicator stays visible until the response arrives."
+          ]
+        },
+        {
+          "title": "Sidebar and tasks",
+          "items": [
+            "Projects and Tasks now have pinned headers and scroll independently so long lists stay reachable.",
+            "Collapse the Projects section from a hover chevron — Darius remembers the state between launches.",
+            "Fixed the task deletion confirmation and stopped deleted tasks from reappearing across chat windows."
+          ]
+        },
+        {
+          "title": "Local models",
+          "items": [
+            "When a local model is busy or memory is tight, new sends are queued instead of vanishing — your message stays in the chat with a 'waiting for local resources' label and is dispatched automatically once the Mac is ready."
+          ]
+        },
+        {
+          "title": "Polish",
+          "items": [
+            "Reordered the onboarding power tiles and removed the Run-on-this-Mac recommended badge.",
+            "Matched the model picker's light-mode background to the sidebar.",
+            "Tooltips across the app now appear almost instantly."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.19.0-beta.7",
       "date": "2026-05-11",
