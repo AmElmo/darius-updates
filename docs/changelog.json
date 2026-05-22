@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-22T04:16:17Z",
+  "generatedAt": "2026-05-22T04:40:18Z",
   "releases": [
     {
       "version": "0.21.0-beta.1",
@@ -8,6 +8,11 @@
       "channel": "beta",
       "title": "Claude subscriptions, voice input, and the Task Inspector",
       "summary": "This beta lets you connect your Claude subscription to Darius with guided onboarding, record voice notes right inside the chat input, and see exactly what each task changed with the new Task Inspector. Chat streaming is faster and steadier, and light mode gets a round of fixes.",
+      "image": {
+        "url": "changelog/0.21.0-beta.1/task-inspector.png",
+        "alt": "Darius Task Inspector showing edited files alongside a running task",
+        "label": "Task Inspector"
+      },
       "sections": [
         {
           "title": "Connect your Claude subscription",
