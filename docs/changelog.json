@@ -1,7 +1,69 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-15T13:44:50Z",
+  "generatedAt": "2026-05-22T04:16:17Z",
   "releases": [
+    {
+      "version": "0.21.0-beta.1",
+      "date": "2026-05-22",
+      "channel": "beta",
+      "title": "Claude subscriptions, voice input, and the Task Inspector",
+      "summary": "This beta lets you connect your Claude subscription to Darius with guided onboarding, record voice notes right inside the chat input, and see exactly what each task changed with the new Task Inspector. Chat streaming is faster and steadier, and light mode gets a round of fixes.",
+      "sections": [
+        {
+          "title": "Connect your Claude subscription",
+          "items": [
+            "Bring your Claude subscription into Darius through the Claude Agent SDK — usage counts toward your existing plan, no separate API key required.",
+            "A guided onboarding sub-flow walks you through connecting and setting up your subscription the first time."
+          ]
+        },
+        {
+          "title": "Voice input",
+          "items": [
+            "Record voice notes inline in the chat input — no separate window or mode to switch into."
+          ]
+        },
+        {
+          "title": "Task Inspector",
+          "items": [
+            "Open a task to inspect the files it edited, its progress, and the tools it ran.",
+            "Curated local speech transcription models keep on-device voice handling lean."
+          ]
+        },
+        {
+          "title": "Usage and history",
+          "items": [
+            "Darius now estimates usage costs using models.dev pricing.",
+            "Local AI usage history is persisted across launches."
+          ]
+        },
+        {
+          "title": "Settings and projects",
+          "items": [
+            "Settings now open as a modal inside the chat window instead of a separate window.",
+            "Projects get a searchable icon picker and updated context-menu actions.",
+            "Plugin logos appear in Settings, with a tighter plugin detail modal."
+          ]
+        },
+        {
+          "title": "Chat performance and polish",
+          "items": [
+            "Faster chat token streaming with steadier bottom-follow as responses arrive.",
+            "Fixed chat input lag caused by draft syncing.",
+            "The tool permission modal moves to a clearer, action-led layout.",
+            "Codex command titles collapse to a single truncated line.",
+            "Added a dedicated Grok logo to the AI logo library."
+          ]
+        },
+        {
+          "title": "Light mode fixes",
+          "items": [
+            "Fixed the model picker background in light mode.",
+            "Fixed unreadable modal text in dark mode when the system is set to light.",
+            "Fixed context menu icon colors and made theme appearance more reliable in light mode."
+          ]
+        }
+      ]
+    },
     {
       "version": "0.20.0-beta.1",
       "date": "2026-05-15",
